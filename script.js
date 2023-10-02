@@ -15,25 +15,25 @@ function addTask() {
         li.appendChild(span);
     }
     inputBox.value = "";
-    // saveDate()
+    saveDate()
 }
 
 listContainer.addEventListener("click", function (e) {
     if (e.target.tagName === "LI") {
         e.target.classList.toggle("checked");
-        // saveDate()
+        saveDate()
     }
     else if (e.target.tagName === "SPAN") {
         e.target.parentElement.remove();
-        // saveDate()
+        saveDate()
     }
 }, false)
 
-// function saveDate(){
-//     localStorage.setItem("data", listContainer.innerHTML);
-// }
+function saveDate(){
+    localStorage.setItem("data", listContainer.innerHTML);
+}
 
-// function showTask(){
-//     listContainer.innerHTML = localStorage.getItem("data");
-// }
-// showTask();
+function showTask(){
+    listContainer.innerHTML = localStorage.getItem("data");
+}
+showTask();
