@@ -16,7 +16,7 @@
     width: 100%;
     max-width: 540px;
     background: #fff;
-    margin: 100px auto 30px;
+    margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    color: #002756;
+    color: #002765;
 }
 
 .todo-list h2 img{
@@ -38,7 +38,7 @@
     align-items: center;
     justify-content: space-between;
     background: gainsboro;
-    border-radius: 25px;
+    border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
 }
@@ -55,7 +55,7 @@ input{
 button{
     border: none;
     outline: none;
-    padding: 15px 50px;
+    padding: 16px 50px;
     background: orchid;
     color: #fff;
     font-size: 18px;
@@ -65,7 +65,7 @@ button{
 
 ul li{
     list-style: none;
-    font-size: 16px;
+    font-size: 17px;
     padding: 12px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
